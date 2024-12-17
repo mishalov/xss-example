@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vanilla Bootstrap Boilerplate</title>
+  <script type="module" src="./main.js" defer></script>
+</head>
+
+<body>
+  <div class="container py-4 px-3 mx-auto">
+
+    <form class="row g-3">
+      <div class="col-auto">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+        <h5 class="mt-2">Please, introduce yourself</h5>
+      </div>
+      <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Name</label>
+        <input type="text" class="form-control" id="input" placeholder="Your name">
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-primary mb-3" id="add-button">Add myself to visitors list</button>
+        <button type="button" class="btn btn-secondary mb-3" id="clear-button">Clear the visitors list</button>
+      </div>
+    </form>
+
+    <div class="mr-4">
+      <h5>Visitors list</h5>
+      <ul class="list-group" id="list">
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
